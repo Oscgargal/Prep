@@ -143,23 +143,54 @@
 // console.log(puedeTomar("Colombia", 17, "M"));
 // console.log(puedeTomar("Afganistan", 24, "M"));
 // console.log(puedeTomar("Afganistan", 24, "F"));
-function esVocal(letra){
+// function esVocal(letra){
     //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
     //Verificar si el usuario ingresó un string de más de un carácter y, en ese caso, informarle 
     //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
     // Tu código:
-    if(letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u" || letra === "A" || letra === "E" || letra === "I" ||letra === "O" ||letra === "U" )     {
-      return "Es Vocal";
-    }else if(letra.length < 2) {
-      return letra;
-    }else {
-      return "Dato incorrecto";
-    }
+  //   if(letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u" || letra == "A" || letra == "E" || letra == "I" ||letra == "O" ||letra == "U" ) {
+  //     return "Es Vocal";
+  //   }else if(letra.length < 2) {
+  //     return letra;
+  //   }else {
+  //     return "Dato incorrecto";
+  //   }
   
-  }
-  console.log(esVocal("E"));
-  console.log(esVocal("a"));
-  console.log(esVocal("b"));
-  console.log(esVocal("e"));
-  console.log(esVocal("noes"));
-  console.log(esVocal(2));
+  
+  //     if(letra.length > 1) {
+  //       return "Dato incorrecto";
+  //     }else if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u" || letra == "A" || letra == "E" || letra == "I" ||letra == "O" ||letra == "U" ) {
+  //       return "Es vocal";
+  //     } else{
+  //         return letra;
+  //     }
+  //   }
+  // console.log(esVocal("E"));
+  // console.log(esVocal("a"));
+  // console.log(esVocal("b"));
+  // console.log(esVocal("e"));
+  // console.log(esVocal("noes"));
+  // console.log(esVocal(2));
+  function doWhile(numero) {
+    //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
+    //Retornar el valor final.
+    //Pueden usar un while o un bucle do ... while (Investigarlo si quieren hacerlo de la segunda forma)
+    // Tu código:
+    // var i = 0
+    // do {
+    //   numero = numero + 5;
+    //   i++;
+    // } while(i < 8);
+    // return numero;
+    
+    var i = 0
+    while(i < 8) {
+      numero = numero + 5;
+      i++;
+    }
+    return numero;
+    }
+
+    console.log(doWhile(2));
+    console.log(doWhile(1));
+    console.log(doWhile(5));
