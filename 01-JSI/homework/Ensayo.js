@@ -171,26 +171,37 @@
   // console.log(esVocal("e"));
   // console.log(esVocal("noes"));
   // console.log(esVocal(2));
-  function doWhile(numero) {
-    //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
-    //Retornar el valor final.
-    //Pueden usar un while o un bucle do ... while (Investigarlo si quieren hacerlo de la segunda forma)
-    // Tu código:
-    // var i = 0
-    // do {
-    //   numero = numero + 5;
-    //   i++;
-    // } while(i < 8);
-    // return numero;
+  // function doWhile(numero) {
+  //   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
+  //   //Retornar el valor final.
+  //   //Pueden usar un while o un bucle do ... while (Investigarlo si quieren hacerlo de la segunda forma)
+  //   // Tu código:
+  //   // var i = 0
+  //   // do {
+  //   //   numero = numero + 5;
+  //   //   i++;
+  //   // } while(i < 8);
+  //   // return numero;
     
-    var i = 0
-    while(i < 8) {
-      numero = numero + 5;
-      i++;
-    }
-    return numero;
-    }
+  //   var i = 0
+  //   while(i < 8) {
+  //     numero = numero + 5;
+  //     i++;
+  //   }
+  //   return numero;
+  //   }
 
-    console.log(doWhile(2));
-    console.log(doWhile(1));
-    console.log(doWhile(5));
+  //   console.log(doWhile(2));
+  //   console.log(doWhile(1));
+  //   console.log(doWhile(5));
+  // for (let i = 3; i < 38; i = i + 5 ) {
+  //   console.log(i)
+  // }
+  // console.log("Hemos terminado");
+
+  let num = 4 
+  while(num <= 40){
+    console.log(num + 2);
+    num = num + 2;
+  }
+  console.log("Buen Repaso");
