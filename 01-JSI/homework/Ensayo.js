@@ -204,4 +204,4 @@
     console.log(num + 2);
     num = num + 2;
   }
-  console.log("Buen Repaso");
+console.log("Buen Repaso");
